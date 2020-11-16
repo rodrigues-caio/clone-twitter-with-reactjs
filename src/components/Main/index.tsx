@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import ProfilePage from '../ProfilePage';
+import ProfilePage from "../ProfilePage";
 
 import {
   Container,
@@ -12,7 +12,7 @@ import {
   SearchIcon,
   BellIcon,
   EmailIcon,
-} from './styles';
+} from "./styles";
 
 const Main: React.FC = () => {
   return (
@@ -23,8 +23,8 @@ const Main: React.FC = () => {
         </button>
 
         <ProfileInfo>
-          <strong>Guilherme Rodz</strong>
-          <span>612 Tweets</span>
+          <strong>Caio Rodrigues</strong>
+          <span>520 Tweets</span>
         </ProfileInfo>
       </Header>
 
