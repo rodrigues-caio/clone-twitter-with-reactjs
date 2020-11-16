@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import Button from '../Button';
+import Button from "../Button";
 
-import { 
+import {
   Container,
   Topside,
   Logo,
@@ -12,7 +12,11 @@ import {
   EmailIcon,
   FavoriteIcon,
   ProfileIcon,
-} from './styles';
+  Botside,
+  Avatar,
+  ProfileData,
+  ExitIcon,
+} from "./styles";
 
 const MenuBar: React.FC = () => {
   return (
@@ -48,10 +52,20 @@ const MenuBar: React.FC = () => {
         <Button>
           <span>Tweetar</span>
         </Button>
-
       </Topside>
+
+      <Botside>
+        <Avatar />
+
+        <ProfileData>
+          <strong>Caio Rodrigues</strong>
+          <span>@rodrigues-caio</span>
+        </ProfileData>
+
+        <ExitIcon />
+      </Botside>
     </Container>
   );
-}
+};
 
 export default MenuBar;

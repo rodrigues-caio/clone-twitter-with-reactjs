@@ -2,16 +2,16 @@ import React from 'react';
 
 import ProfilePage from '../ProfilePage';
 
-import { 
-  Container, 
-  Header, 
-  BackIcon, 
+import {
+  Container,
+  Header,
+  BackIcon,
   ProfileInfo,
   BottomMenu,
   HomeIcon,
   SearchIcon,
   BellIcon,
-  EmailIcon, 
+  EmailIcon,
 } from './styles';
 
 const Main: React.FC = () => {
@@ -23,7 +23,7 @@ const Main: React.FC = () => {
         </button>
 
         <ProfileInfo>
-          <strong>Caio Rodrigues</strong>
+          <strong>Guilherme Rodz</strong>
           <span>612 Tweets</span>
         </ProfileInfo>
       </Header>
@@ -38,6 +38,6 @@ const Main: React.FC = () => {
       </BottomMenu>
     </Container>
   );
-}
+};
 
 export default Main;

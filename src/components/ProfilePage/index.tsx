@@ -2,7 +2,7 @@ import React from 'react';
 
 import Feed from '../Feed';
 
-import { 
+import {
   Container,
   Banner,
   Avatar,
@@ -10,7 +10,7 @@ import {
   LocationIcon,
   CakeIcon,
   Followage,
-  EditButton
+  EditButton,
 } from './styles';
 
 const ProfilePage: React.FC = () => {
@@ -26,7 +26,7 @@ const ProfilePage: React.FC = () => {
         <h1>Caio Rodrigues</h1>
         <h2>@rodrigues-caio</h2>
 
-        <p>Estudante de Desenvolvimento de Software</p>
+        <p>Estudante de desenvolvimento de software web e mobile</p>
 
         <ul>
           <li>
@@ -35,23 +35,23 @@ const ProfilePage: React.FC = () => {
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 05 de dezembro de 1996
+            Nascido(a) em 12 de dezembro de 1996
           </li>
         </ul>
 
         <Followage>
-        <span>
-          seguindo <strong>85</strong>
-        </span>
-        <span>
-          <strong>514 </strong> seguidores
-        </span>
-      </Followage>
-
+          <span>
+            seguindo <strong>150</strong>
+          </span>
+          <span>
+            <strong>800 </strong> seguidores
+          </span>
+        </Followage>
       </ProfileData>
+
       <Feed />
     </Container>
   );
-}
+};
 
 export default ProfilePage;
